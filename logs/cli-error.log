@@ -1,0 +1,402 @@
+2025-04-24 07:11:06 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /Users/nangkhinohn/Desktop/Portfolio/vendor/cakephp/cakephp/src/Database/Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:72
+- CORE/src/Database/Schema/CachedCollection.php:74
+- ROOT/vendor/cakephp/bake/src/Utility/TableScanner.php:66
+- ROOT/vendor/cakephp/bake/src/Utility/TableScanner.php:82
+- ROOT/vendor/cakephp/bake/src/Command/AllCommand.php:87
+- CORE/src/Console/BaseCommand.php:201
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /Users/nangkhinohn/Desktop/Portfolio/vendor/cakephp/cakephp/src/Database/Driver.php on line 191
+Stack Trace:
+- CORE/src/Database/Driver.php:191
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Driver.php:200
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:72
+- CORE/src/Database/Schema/CachedCollection.php:74
+- ROOT/vendor/cakephp/bake/src/Utility/TableScanner.php:66
+- ROOT/vendor/cakephp/bake/src/Utility/TableScanner.php:82
+- ROOT/vendor/cakephp/bake/src/Command/AllCommand.php:87
+- CORE/src/Console/BaseCommand.php:201
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-04-24 07:13:03 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /Users/nangkhinohn/Desktop/Portfolio/vendor/cakephp/cakephp/src/Database/Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/ORM/Table.php:526
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:116
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- CORE/src/Console/BaseCommand.php:201
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /Users/nangkhinohn/Desktop/Portfolio/vendor/cakephp/cakephp/src/Database/Driver.php on line 191
+Stack Trace:
+- CORE/src/Database/Driver.php:191
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Driver.php:200
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/ORM/Table.php:526
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:116
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- CORE/src/Console/BaseCommand.php:201
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-04-24 07:17:29 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /Users/nangkhinohn/Desktop/Portfolio/vendor/cakephp/cakephp/src/Database/Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/ORM/Table.php:526
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:116
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- CORE/src/Console/BaseCommand.php:201
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /Users/nangkhinohn/Desktop/Portfolio/vendor/cakephp/cakephp/src/Database/Driver.php on line 191
+Stack Trace:
+- CORE/src/Database/Driver.php:191
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Driver.php:200
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/ORM/Table.php:526
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:116
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- CORE/src/Console/BaseCommand.php:201
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-04-24 07:21:37 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /Users/nangkhinohn/Desktop/Portfolio/vendor/cakephp/cakephp/src/Database/Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/ORM/Table.php:526
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:116
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- CORE/src/Console/BaseCommand.php:201
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /Users/nangkhinohn/Desktop/Portfolio/vendor/cakephp/cakephp/src/Database/Driver.php on line 191
+Stack Trace:
+- CORE/src/Database/Driver.php:191
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Driver.php:200
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/ORM/Table.php:526
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:116
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- CORE/src/Console/BaseCommand.php:201
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-04-24 08:22:24 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /Users/nangkhinohn/Desktop/Portfolio/vendor/cakephp/cakephp/src/Database/Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:72
+- CORE/src/Database/Schema/CachedCollection.php:74
+- ROOT/vendor/cakephp/bake/src/Utility/TableScanner.php:66
+- ROOT/vendor/cakephp/bake/src/Utility/TableScanner.php:82
+- ROOT/vendor/cakephp/bake/src/Command/AllCommand.php:87
+- CORE/src/Console/BaseCommand.php:201
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /Users/nangkhinohn/Desktop/Portfolio/vendor/cakephp/cakephp/src/Database/Driver.php on line 191
+Stack Trace:
+- CORE/src/Database/Driver.php:191
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Driver.php:200
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:72
+- CORE/src/Database/Schema/CachedCollection.php:74
+- ROOT/vendor/cakephp/bake/src/Utility/TableScanner.php:66
+- ROOT/vendor/cakephp/bake/src/Utility/TableScanner.php:82
+- ROOT/vendor/cakephp/bake/src/Command/AllCommand.php:87
+- CORE/src/Console/BaseCommand.php:201
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-04-24 08:38:56 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /Users/nangkhinohn/Desktop/Portfolio/vendor/cakephp/cakephp/src/Database/Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:72
+- CORE/src/Database/Schema/CachedCollection.php:74
+- ROOT/vendor/cakephp/bake/src/Utility/TableScanner.php:66
+- ROOT/vendor/cakephp/bake/src/Utility/TableScanner.php:82
+- ROOT/vendor/cakephp/bake/src/Command/AllCommand.php:87
+- CORE/src/Console/BaseCommand.php:201
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /Users/nangkhinohn/Desktop/Portfolio/vendor/cakephp/cakephp/src/Database/Driver.php on line 191
+Stack Trace:
+- CORE/src/Database/Driver.php:191
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Driver.php:200
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:72
+- CORE/src/Database/Schema/CachedCollection.php:74
+- ROOT/vendor/cakephp/bake/src/Utility/TableScanner.php:66
+- ROOT/vendor/cakephp/bake/src/Utility/TableScanner.php:82
+- ROOT/vendor/cakephp/bake/src/Command/AllCommand.php:87
+- CORE/src/Console/BaseCommand.php:201
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-04-24 08:41:32 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /Users/nangkhinohn/Desktop/Portfolio/vendor/cakephp/cakephp/src/Database/Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/ORM/Table.php:526
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:116
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- CORE/src/Console/BaseCommand.php:201
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /Users/nangkhinohn/Desktop/Portfolio/vendor/cakephp/cakephp/src/Database/Driver.php on line 191
+Stack Trace:
+- CORE/src/Database/Driver.php:191
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Driver.php:200
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/ORM/Table.php:526
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:116
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- CORE/src/Console/BaseCommand.php:201
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-04-24 08:43:15 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No such file or directory in /Users/nangkhinohn/Desktop/Portfolio/vendor/cakephp/cakephp/src/Database/Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No such file or directory',
+)
+Stack Trace:
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/ORM/Table.php:526
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:116
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- CORE/src/Console/BaseCommand.php:201
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /Users/nangkhinohn/Desktop/Portfolio/vendor/cakephp/cakephp/src/Database/Driver.php on line 191
+Stack Trace:
+- CORE/src/Database/Driver.php:191
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Driver.php:200
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/ORM/Table.php:526
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:116
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- CORE/src/Console/BaseCommand.php:201
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-04-24 08:43:43 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No such file or directory in /Users/nangkhinohn/Desktop/Portfolio/vendor/cakephp/cakephp/src/Database/Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No such file or directory',
+)
+Stack Trace:
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:72
+- CORE/src/Database/Schema/CachedCollection.php:74
+- ROOT/vendor/cakephp/bake/src/Utility/TableScanner.php:66
+- ROOT/vendor/cakephp/bake/src/Utility/TableScanner.php:82
+- ROOT/vendor/cakephp/bake/src/Command/ModelAllCommand.php:86
+- CORE/src/Console/BaseCommand.php:201
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /Users/nangkhinohn/Desktop/Portfolio/vendor/cakephp/cakephp/src/Database/Driver.php on line 191
+Stack Trace:
+- CORE/src/Database/Driver.php:191
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Driver.php:200
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:72
+- CORE/src/Database/Schema/CachedCollection.php:74
+- ROOT/vendor/cakephp/bake/src/Utility/TableScanner.php:66
+- ROOT/vendor/cakephp/bake/src/Utility/TableScanner.php:82
+- ROOT/vendor/cakephp/bake/src/Command/ModelAllCommand.php:86
+- CORE/src/Console/BaseCommand.php:201
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-04-24 08:53:06 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No such file or directory in /Users/nangkhinohn/Desktop/Portfolio/vendor/cakephp/cakephp/src/Database/Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No such file or directory',
+)
+Stack Trace:
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:72
+- CORE/src/Database/Schema/CachedCollection.php:74
+- ROOT/vendor/cakephp/bake/src/Utility/TableScanner.php:66
+- ROOT/vendor/cakephp/bake/src/Utility/TableScanner.php:82
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:1283
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- CORE/src/Console/BaseCommand.php:201
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /Users/nangkhinohn/Desktop/Portfolio/vendor/cakephp/cakephp/src/Database/Driver.php on line 191
+Stack Trace:
+- CORE/src/Database/Driver.php:191
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Driver.php:200
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:72
+- CORE/src/Database/Schema/CachedCollection.php:74
+- ROOT/vendor/cakephp/bake/src/Utility/TableScanner.php:66
+- ROOT/vendor/cakephp/bake/src/Utility/TableScanner.php:82
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:1283
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- CORE/src/Console/BaseCommand.php:201
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
