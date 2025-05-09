@@ -518,8 +518,8 @@
         <div class="container">
             <div class="footer-distributed">
                 <div class="footer-left">
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2025 <a href="#">Nang Khin Ohn</a> Design By : 
-					<a href="https://html.design/">html design</a></p>
+                    <!-- <p class="footer-company-name">All Rights Reserved. &copy; 2025 <a href="#">Nang Khin Ohn</a> Design By : 
+					<a href="https://html.design/">html design</a></p> -->
                 </div>
             </div>
         </div><!-- end container -->
